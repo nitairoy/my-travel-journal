@@ -4,9 +4,9 @@ export default function Card(props) {
   return (
     <div>
     <div className="card">
-        <img src={require(`../images/${props.coverImg}`)} alt="Card Images" className="card-image" />
+        <img src={require(`../images/${props.coverImg}`)} alt="World class travel places" className="card-image" />
         <div className="card-details">
-            <img src={require(`../images/icon.png`)} className="icon-map"/>
+            <img src={require(`../images/icon.png`)} className="icon-map" alt='Get Location icon'/>
             <span className="get-location">{props.location}</span>
             <span className='get-map'><a className='get-map' href={props.googleMap}>View on Google Map</a></span>
             <h1 className="card-title">{props.title}</h1>
