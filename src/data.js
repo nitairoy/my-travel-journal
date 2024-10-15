@@ -1,5 +1,4 @@
-
-export default [
+const data = [
     {
         id: 1,
         title: "Mount Fuji",
@@ -29,3 +28,5 @@ export default [
         date: "01 Oct, 2021 - 18 Nov, 2021",
     }
 ]
+
+export default data;
